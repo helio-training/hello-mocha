@@ -1,5 +1,8 @@
-import Test from 'ava';
+describe('Dummy Test', () => {
 
-Test('works', t => {
-  t.truthy({});
+  it('passes', () => {
+    expect(true).to.be.true();
+  });
+
+
 });
