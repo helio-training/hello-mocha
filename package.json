@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node .",
     "start:dev": "nodemon .",
-    "test": "_mocha test",
+    "test": "_mocha test/**/*.test.js",
     "build:transpile": "babel src -d dist -s inline",
     "prepublish": "npm run build:transpile"
   },
